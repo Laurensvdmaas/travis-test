@@ -18,9 +18,7 @@ before_script:
  - sudo dpkg -i google-chrome*.deb
 
 script:
-  - ng test --watch false -cc
-  - npm run e2e
-  - ng build -bh "https://ahsanayaz.github.io/ng-traffic-ci/"
+  - ng build -bh "/travis-testing/"
 
 deploy:
   provider: pages

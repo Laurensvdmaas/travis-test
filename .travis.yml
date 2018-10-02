@@ -18,7 +18,7 @@ before_script:
  - sudo dpkg -i google-chrome*.deb
 
 script:
-  - ng build -bh "/travis-testing/"
+  - ng run travis-testing:build:production
 
 deploy:
   provider: pages

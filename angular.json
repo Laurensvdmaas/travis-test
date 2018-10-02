@@ -35,7 +35,7 @@
                   "with": "src/environments/environment.prod.ts"
                 }
               ],
-              "baseHref": "/travis-testing/",
+              "baseHref": "/travis-test/",
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
